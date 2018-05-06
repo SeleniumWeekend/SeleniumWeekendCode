@@ -1,0 +1,21 @@
+<suite name="suite1">
+	<parameter name="url" value="https://facebook.com"/>
+	<test name="test1">
+		<parameter name="uname" value="fkjf@jdw.com"/>
+		<classes>
+			<class name="com.testng.Priority123">
+				<parameter name="pw" value="12345"/>
+				<method>
+					<parameter name="browserName" value="chrome"/>
+					<include name="createFolder"/>
+				</method>
+				<method>
+					<parameter name="browserName" value="ie"/>
+					<include name="deleteFolder"/>
+				</method>
+			
+			</class>
+		</classes>
+	</test>
+
+</suite>
