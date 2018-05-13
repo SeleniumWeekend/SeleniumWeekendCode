@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="AssertAll1.AssertAll123">
+      <class name="com.screenshot.SingleScrenShot">
         <methods>
-          <include name="test1"/>
+          <include name="sarchProduct"/>
         </methods>
-      </class> <!-- AssertAll1.AssertAll123 -->
+      </class> <!-- com.screenshot.SingleScrenShot -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

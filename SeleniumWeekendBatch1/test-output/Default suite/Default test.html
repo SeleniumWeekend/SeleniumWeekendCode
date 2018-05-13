@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun May 06 12:02:01 GMT-11:00 2018</td>
+<td>Started on:</td><td>Sat May 12 12:02:59 GMT-11:00 2018</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (173 ms)</td>
+<tr><td>Total time:</td><td>17 seconds (17917 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,13 +75,31 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='AssertAll1.AssertAll123.test1()'><b>test1</b><br>Test class: AssertAll1.AssertAll123</td>
-<td><div><pre>java.lang.AssertionError: The following asserts failed:
-	Both are not equal1 expected [BDCE] but found [ABCD],
-	FAIL1 expected [true] but found [false],
-	Both object is not same expected [BCDE] but found [ABCDE]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-	at AssertAll1.AssertAll123.test1(AssertAll123.java:20)
+<td title='com.screenshot.SingleScrenShot.sarchProduct()'><b>sarchProduct</b><br>Test class: com.screenshot.SingleScrenShot</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;a id=&quot;topNav_NewIn&quot; name=&quot;topNav_NewIn&quot; href=&quot;/shop/New-In/1/_/N-zhhZ1ytvfx8/products/show.action?cm_sp=JDW-TopNav-_-TopNavigationGroup-_-NewIn&quot;&gt;...&lt;/a&gt; is not clickable at point (52, 118). Other element would receive the click: &lt;div id=&quot;monetate_lightbox_mask&quot; style=&quot;transform: translate3d(0px, 0px, 0px); background-color: rgb(0, 0, 0); height: 8945px; left: 0px; margin: 0px; padding: 0px; position: fixed; top: 0px; width: 6017px; opacity: 0.6; display: block;&quot; class=&quot;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;SHALINI&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.30.477700 (0057494ad87321..., userDataDir: C:\Users\SHALIN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: f85ba605fa8c7384233f9a4c9767d5ff
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.screenshot.SingleScrenShot.sarchProduct(SingleScrenShot.java:30)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -107,13 +125,31 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1715998167", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1715998167'><pre>java.lang.AssertionError: The following asserts failed:
-	Both are not equal1 expected [BDCE] but found [ABCD],
-	FAIL1 expected [true] but found [false],
-	Both object is not same expected [BCDE] but found [ABCDE]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-	at AssertAll1.AssertAll123.test1(AssertAll123.java:20)
+</pre></div><a href='#' onClick='toggleBox("stack-trace201719260", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace201719260'><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;a id=&quot;topNav_NewIn&quot; name=&quot;topNav_NewIn&quot; href=&quot;/shop/New-In/1/_/N-zhhZ1ytvfx8/products/show.action?cm_sp=JDW-TopNav-_-TopNavigationGroup-_-NewIn&quot;&gt;...&lt;/a&gt; is not clickable at point (52, 118). Other element would receive the click: &lt;div id=&quot;monetate_lightbox_mask&quot; style=&quot;transform: translate3d(0px, 0px, 0px); background-color: rgb(0, 0, 0); height: 8945px; left: 0px; margin: 0px; padding: 0px; position: fixed; top: 0px; width: 6017px; opacity: 0.6; display: block;&quot; class=&quot;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;SHALINI&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.30.477700 (0057494ad87321..., userDataDir: C:\Users\SHALIN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: f85ba605fa8c7384233f9a4c9767d5ff
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.screenshot.SingleScrenShot.sarchProduct(SingleScrenShot.java:30)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -140,8 +176,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>0</td>
-<td>AssertAll1.AssertAll123@5f375618</td></tr>
+<td>17</td>
+<td>com.screenshot.SingleScrenShot@4439f31e</td></tr>
 </table><p>
 </body>
 </html>

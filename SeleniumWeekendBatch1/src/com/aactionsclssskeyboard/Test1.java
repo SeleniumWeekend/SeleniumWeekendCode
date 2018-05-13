@@ -18,6 +18,7 @@ public class Test1
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("https://drive.google.com");
+		System.out.println("fkjkffj");
 		
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		
